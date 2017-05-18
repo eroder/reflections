@@ -1,0 +1,37 @@
+//Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+
+Comparando as duas versões é possível identificar quais locais foram alterados
+e identificar onde estão os erros.
+
+//Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+Pode ajudar a identificar qualquer tipo de erro e recuperar versões mais antigas caso queira desfazer alguma alteração.
+
+//Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v.
+//o salvamento automático de versões, como no Google Docs?
+
+Criar os commits manualmente tem como principal vantagem decidir o momento certo para fazer o commit e assim manter uma
+lógica no versionamento, porêm por outro lado tem como principal desvantagem o risco de falha humana. Diferente do git
+o google docs tem como principal vantagem o salvamento automático que descarta o risco de falha humana, porêm por outro
+lado ele salva em momentos aleatórios criando uma confusão no versionamento e inclusive gerando commits que podem não
+rodar.
+
+//Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit,
+//enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+O google docs trata cada arquivo separadamente porque a função de controle de versão dele não é a principal, diferente
+do git que é um sistema exclusivamente para versionamento, trazendo mais funções direcionadas parada este proprósito.
+
+//Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+o comando git log mostra um log de todas as versões com as descrições das alterações e o comando git diff é utilizado para comparar
+um commit com outro.
+
+//De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+Ele dá mais segurança pois podemos acessar qualquer versão antiga e recuperar alterações feitas que danificaram algo.
+
+//Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+
+Quero usar o git para criar versões dos meus projetos e assim manter ele organizado em uma linha do tempo na qual eu
+poderei acessar qualquer parte quando precisar.
