@@ -3,6 +3,31 @@
 Após iniciar um repositório o git é configurado para ser utilizado naquele diretório, ficando assim
 preparado para receber os commits. É necessário para iniciar a utilização de git em um projeto.
 
-//Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+// Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 
 Em nada. Ela oferece a oportunidade de escolher quais arquivos seram commitados.
+
+// Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+A area de preparação permite que mesmo alterando vários arquivos você possa escolher quais arquivos fazer o commit.
+
+// Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+Branchs podem ser úteis quando precisamos ter uma versão paralela de nosso código e ainda manter nosso código principal
+intacto. Exemplos disso são em versões em diferentes linguas, teste de funcionalidades novas, para teste A/B, bugs...
+Eles ajudariam pois ficaria fácil gerenciar diferentes versões do mesmo código somente alterando os branchs e criando commits.
+
+// Como os diagramas ajudam a visualizar a estrutura de branches?
+
+Os diagramas ajudam a termos uma ideia visual de como a estrutura dos branches está formada, assim tornando mais fácil
+entender e se localizar.
+
+// Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+O resultado da mesclagem de dois branchs é um commit novo com as alterações feitas nos 2 ultimos commits de cada branch
+comparadas com o commit onde os branchs se separaram. Representamos pois ele tem 2 commits de origem.
+
+// Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+Contra é que dá mais trabalho. Prós temos a flexibilidade de escolher a melhor parte do código que vai permanecer em um
+conflito.
