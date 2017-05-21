@@ -1,0 +1,4 @@
+// Quando gostaria de usar um repositório remoto em vez de manter o trabalho local?
+
+Eu gostaria de usar um repositório remoto, quando estiver trabalhando com mais pessoas, quiser tornar um trabalho público,
+participar de um repositório público e salvar remotamente meu trabalho.
